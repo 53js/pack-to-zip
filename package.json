@@ -1,0 +1,39 @@
+{
+	"name": "pack-to-zip",
+	"version": "1.0.0",
+	"description": "Transform the tgz archive from npm pack to a zip without the annoying package folder",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/53js/pack-to-zip.git"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"keywords": [
+		"npm",
+		"pack",
+		"zip",
+		"Elastic beanstalk",
+		"tgz",
+		"package"
+	],
+	"author": "53js",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/53js/pack-to-zip/issues"
+	},
+	"homepage": "https://github.com/53js/pack-to-zip#readme",
+	"dependencies": {
+		"archiver": "^2.1.1",
+		"decompress": "^4.2.0",
+		"del": "^3.0.0",
+		"pkg-dir": "^3.0.0"
+	},
+	"bin": {
+		"pack-to-zip": "cli.js"
+	}
+}
